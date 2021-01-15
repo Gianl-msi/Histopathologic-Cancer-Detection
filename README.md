@@ -7,4 +7,4 @@ The goal is this project is to build and tune up a deep learning algorithm for t
 ## DATA OVERVIEW AND EDA
 The dataset is available on Kaggle (https://www.kaggle.com/c/histopathologic-cancer-detection) and contains 220025 color (RGB) images (96x96 pixels). Most of the images, 59.5%, are showing normal tissue. The two classes are balanced; thus, we can avoid over-sampling or under techniques that handle unbalanced data sets.
 
-[IMG1](https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/distribution.JPG)
+![IMG1](https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/distribution.JPG){:height="50%" width="50%"}
