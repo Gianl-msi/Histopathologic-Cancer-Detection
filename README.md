@@ -12,3 +12,9 @@ The dataset is available on Kaggle (https://www.kaggle.com/c/histopathologic-can
 The image below shows an example of normal and tumor tissue. While the normal tissue appears well organized, the tumor cells are mangled up and the normal structure of the tissue is missing.
 
 <img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/image%20example.JPG" width="600" height="300"/>
+
+## MODELING
+When I began this project, I was determined to train all models from scratch. Even though, transfer learning usually the best course of action in visual science, I wanted to experience how the number of layers, filters, kernel sizes affected the performance of the model… basically I wanted to fool around. This approach would have not been possible if I didn’t have a powerful desktop specifically designed for deep learning applications. A big thanks to Nvidia for that. 
+Initially (part 1), I implemented a vanilla approach: split the all dataset into training and testing (80/20 split) and utilized the whole training set for training and the whole test set for validation. Later (part 2), I decided to split the training set into 5 folds and train 5 separate models (4 folds for training, one for validation). The predictions of the 5 models on the test set were ultimately averaged to obtain the final estimate.
+
+### Part 1 – Vanilla approach
