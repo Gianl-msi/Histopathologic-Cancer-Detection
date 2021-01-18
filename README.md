@@ -10,3 +10,5 @@ The dataset is available on Kaggle (https://www.kaggle.com/c/histopathologic-can
 <img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/distribution.JPG" width="450" height="450"/>
 
 The image below shows an example of normal and tumor tissue. While the normal tissue appears well organized, the tumor cells are mangled up and the normal structure of the tissue is missing.
+
+<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/image%20example.JPG" width="600" height="300"/>
