@@ -20,12 +20,12 @@ Initially (part 1), I implemented a vanilla approach: split the all dataset into
 ### Part 1 – Vanilla approach
 Images were divided in training and validation sets with a 80/20 split (175780 training images, 44245 images for validation). Several models were designed trained for 50 epochs and tested. You can find the details of each model here. The best two model delivered an AUC of 0.9914 and 0.9905.
 
-<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/table%201%20metrics.jpg" width="400" height="200"/>
+<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/table%20-%20%20metrics.jpg" width="400" height="200"/>
 
 ### Part 2 – K fold approach
 Next, I utilized a K-fold validation approach. The training set was split in 5 chunks: 4 were used to for the train of the model, while the 5th one was used to test it. The 5 trained models where than evaluated on the validation set. The 5 predictions were averaged to obtain the overall prediction. For some model I also used test time augmentation. The table below summaries the performance of all the models I built and tested. For details on the architecture of the CNN please refer to the notebook here. 
 
-<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/table2%20metrics%201.jpg" width="900" height="300"/>
+<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/table%20-%20metrics%202.jpg" width="900" height="300"/>
 
 Time augmentation has a major impact on the prediction power of the model. Out of 44125 images, Model K5 misclassified only 716 of them. Next, I checked how the misclassified images looked. The figure below shows eight randomly picked misclassified histological images. It is not clear me why/how they were not classified properly by the Model K4. I could argue that for the false positive 1, the lack of tissue in the image may have tricked the classifier somehow. But I can’t provide any reasonable explanation for the misclassification of the remaining 7 images.
 
