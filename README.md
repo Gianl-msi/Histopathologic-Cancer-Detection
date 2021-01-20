@@ -36,7 +36,7 @@ I was curious to see what the different filters learned during training. The Ker
 <img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/filters.JPG" width="900" height="300"/>
 
 ## FUTURE DIRECTIONS
-Proper diagnosis of tumor is critical for delivering the most appropriate therapy to the patient. Therefore, it is imperative that the ML model be 100% accurate. The final model is undoubtedly great but requires further improvements in order to substitute an experienced histopathologist. The model could be better by dropping few data samples for the overly sampled data class (normal tissue), improving the resolution of the images and deepening the network. 
+Proper diagnosis of tumor is critical for delivering the most appropriate therapy to the patient. Therefore, it is imperative that the ML model be 100% accurate. The final model is undoubtedly great but requires further improvements in order to substitute an experienced histopathologist. The model could be bettered by dropping few data samples for the overly sampled data class (normal tissue), increasing the resolution of the images and deepening the network. 
 
 
 
