@@ -18,3 +18,6 @@ When I began this project, I was determined to train all models from scratch. Ev
 Initially (part 1), I implemented a vanilla approach: split the all dataset into training and testing (80/20 split) and utilized the whole training set for training and the whole test set for validation. Later (part 2), I decided to split the training set into 5 folds and train 5 separate models (4 folds for training, one for validation). The predictions of the 5 models on the test set were ultimately averaged to obtain the final estimate.
 
 ### Part 1 – Vanilla approach
+Images were divided in training and validation sets with a 80/20 split (175780 training images, 44245 images for validation). Several models were designed trained for 50 epochs and tested. You can find the details of each model here. The best two model delivered an AUC of 0.9914 and 0.9905.
+
+
