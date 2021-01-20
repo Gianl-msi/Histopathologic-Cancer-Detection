@@ -7,11 +7,11 @@ The goal is this project is to build and tune up a deep learning algorithm for t
 ## DATA OVERVIEW AND EDA
 The dataset is available on Kaggle (https://www.kaggle.com/c/histopathologic-cancer-detection) and contains 220025 color (RGB) images (96x96 pixels). Most of the images, 59.5%, are showing normal tissue. The two classes are balanced; thus, we can avoid over-sampling or under techniques that handle unbalanced data sets.
 
-<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/distribution.JPG" width="450" height="450"/>
+<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/distribution.JPG" width="320" height="320"/>
 
 The image below shows an example of normal and tumor tissue. While the normal tissue appears well organized, the tumor cells are mangled up and the normal structure of the tissue is missing.
 
-<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/image%20example.JPG" width="600" height="300"/>
+<img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/image%20example.JPG" width="500" height="250"/>
 
 ## MODELING
 When I began this project, I was determined to train all models from scratch. Even though, transfer learning usually the best course of action in visual science, I wanted to experience how the number of layers, filters, kernel sizes affected the performance of the model… basically I wanted to fool around. This approach would have not been possible if I didn’t have a powerful desktop specifically designed for deep learning applications. A big thanks to Nvidia for that. 
