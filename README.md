@@ -27,7 +27,7 @@ Next, I utilized a K-fold validation approach. The training set was split in 5 c
 
 <img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/table%20-%20metrics%202.jpg" width="900" height="300"/>
 
-Time augmentation has a major impact on the prediction power of the model. Out of 44125 images, Model K5 misclassified only 716 of them. Next, I checked how the misclassified images looked. The figure below shows eight randomly picked misclassified histological images. It is not clear me why/how they were not classified properly by the Model K4. I could argue that for the false positive 1, the lack of tissue in the image may have tricked the classifier somehow. But I can’t provide any reasonable explanation for the misclassification of the remaining 7 images.
+Time augmentation has a major impact on the prediction power of the model. Out of 44125 images, Model K4 misclassified only 716 of them. Next, I checked how the misclassified images looked. The figure below shows eight randomly picked misclassified histological images. It is not clear me why/how they were not classified properly by the Model K4. I could argue that for the false positive 1, the lack of tissue in the image may have tricked the classifier somehow. But I can’t provide any reasonable explanation for the misclassification of the remaining 7 images.
 
 <img src="https://github.com/Gianl-msi/Histopathologic-Cancer-Detection/blob/main/Figures/misclassfied.JPG" width="700" height="300"/>
 
